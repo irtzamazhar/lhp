@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#991B1B"/>
+      <stop offset="100%" stop-color="#F97316"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#g)"/>
+  <polygon points="400,130 440,210 530,210 460,260 490,345 400,295 310,345 340,260 270,210 360,210" fill="rgba(255,255,255,0.25)"/>
+  <text x="400" y="390" font-size="26" text-anchor="middle" fill="rgba(255,255,255,0.75)" font-family="sans-serif" letter-spacing="6">SPORTS</text>
+  <circle cx="150" cy="130" r="60" fill="rgba(255,255,255,0.04)"/>
+  <circle cx="670" cy="390" r="80" fill="rgba(255,255,255,0.04)"/>
+</svg>

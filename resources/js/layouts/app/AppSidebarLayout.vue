@@ -6,19 +6,15 @@ import AppSidebarHeader from '@/components/AppSidebarHeader.vue';
 import { Toaster } from '@/components/ui/sonner';
 import type { BreadcrumbItem } from '@/types';
 
-type Props = {
-    breadcrumbs?: BreadcrumbItem[];
-};
-
-withDefaults(defineProps<Props>(), {
+withDefaults(defineProps<{ breadcrumbs?: BreadcrumbItem[] }>(), {
     breadcrumbs: () => [],
 });
 </script>
 
 <template>
-    <AppShell variant="sidebar">
+    <AppShell>
         <AppSidebar />
-        <AppContent variant="sidebar" class="overflow-x-hidden">
+        <AppContent class="overflow-x-hidden">
             <AppSidebarHeader :breadcrumbs="breadcrumbs" />
             <slot />
         </AppContent>

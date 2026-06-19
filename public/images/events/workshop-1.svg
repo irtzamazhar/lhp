@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#92400E"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#g)"/>
+  <rect x="300" y="160" width="200" height="140" rx="12" fill="rgba(255,255,255,0.12)"/>
+  <line x1="330" y1="200" x2="470" y2="200" stroke="rgba(255,255,255,0.4)" stroke-width="3" stroke-linecap="round"/>
+  <line x1="330" y1="226" x2="430" y2="226" stroke="rgba(255,255,255,0.3)" stroke-width="3" stroke-linecap="round"/>
+  <line x1="330" y1="252" x2="450" y2="252" stroke="rgba(255,255,255,0.3)" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="490" cy="290" r="18" fill="rgba(255,255,255,0.3)"/>
+  <text x="400" y="370" font-size="26" text-anchor="middle" fill="rgba(255,255,255,0.75)" font-family="sans-serif" letter-spacing="6">WORKSHOP</text>
+  <circle cx="130" cy="400" r="80" fill="rgba(255,255,255,0.04)"/>
+  <circle cx="690" cy="100" r="70" fill="rgba(255,255,255,0.04)"/>
+</svg>

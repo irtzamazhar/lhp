@@ -1,17 +1,19 @@
 <?php
 
+use App\Http\Controllers\AttendeeController;
 use App\Http\Controllers\EventController;
 use Illuminate\Support\Facades\Route;
 
 Route::redirect('/', '/events')->name('home');
 
 Route::get('events', [EventController::class, 'index'])->name('events.index');
-Route::get('events/data', [EventController::class, 'data'])->name('events.data');
-Route::get('events/{event}', [EventController::class, 'show'])->name('events.show');
+Route::get('events/visual-data', [EventController::class, 'visualData'])->name('events.visual-data');
+Route::post('events', [EventController::class, 'store'])->name('events.store');
+Route::put('events/{event}', [EventController::class, 'update'])->name('events.update');
+Route::delete('events/{event}', [EventController::class, 'destroy'])->name('events.destroy');
 
-Route::inertia('events-visual-1', 'Events/VisualOne')->name('events.visual1');
-Route::inertia('events-visual-2', 'Events/VisualTwo')->name('events.visual2');
+Route::get('events-visual-1', [EventController::class, 'visualOne'])->name('events.visual1');
+Route::get('events-visual-2', [EventController::class, 'visualTwo'])->name('events.visual2');
 
-Route::inertia('dashboard', 'Dashboard')->name('dashboard');
-
-require __DIR__.'/settings.php';
+Route::get('attendees', [AttendeeController::class, 'index'])->name('attendees.index');
+Route::post('attendees', [AttendeeController::class, 'store'])->name('attendees.store');

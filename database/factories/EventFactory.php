@@ -3,7 +3,6 @@
 namespace Database\Factories;
 
 use App\Models\Event;
-use App\Models\User;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**
@@ -21,7 +20,6 @@ class EventFactory extends Factory
         $startsAt = fake()->numberBetween(strtotime('-1 year'), strtotime('+1 year'));
 
         return [
-            'user_id' => User::factory(),
             'type' => $type,
             'status' => fake()->randomElement(['draft', 'published', 'cancelled', 'sold_out']),
             'created_time' => $startsAt,

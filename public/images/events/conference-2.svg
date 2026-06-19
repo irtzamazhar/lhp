@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="g" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E3A8A"/>
+      <stop offset="100%" stop-color="#0369A1"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#g)"/>
+  <line x1="200" y1="200" x2="600" y2="200" stroke="rgba(255,255,255,0.2)" stroke-width="2"/>
+  <circle cx="250" cy="200" r="20" fill="rgba(255,255,255,0.4)"/>
+  <circle cx="400" cy="200" r="20" fill="rgba(255,255,255,0.4)"/>
+  <circle cx="550" cy="200" r="20" fill="rgba(255,255,255,0.4)"/>
+  <line x1="250" y1="200" x2="250" y2="310" stroke="rgba(255,255,255,0.15)" stroke-width="2"/>
+  <line x1="400" y1="200" x2="400" y2="310" stroke="rgba(255,255,255,0.15)" stroke-width="2"/>
+  <line x1="550" y1="200" x2="550" y2="310" stroke="rgba(255,255,255,0.15)" stroke-width="2"/>
+  <rect x="200" y="310" width="100" height="60" rx="8" fill="rgba(255,255,255,0.12)"/>
+  <rect x="350" y="310" width="100" height="60" rx="8" fill="rgba(255,255,255,0.12)"/>
+  <rect x="500" y="310" width="100" height="60" rx="8" fill="rgba(255,255,255,0.12)"/>
+  <text x="400" y="420" font-size="22" text-anchor="middle" fill="rgba(255,255,255,0.65)" font-family="sans-serif" letter-spacing="6">SUMMIT</text>
+</svg>

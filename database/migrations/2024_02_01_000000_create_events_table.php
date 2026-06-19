@@ -10,7 +10,6 @@ return new class extends Migration
     {
         Schema::create('events', function (Blueprint $table) {
             $table->uuid('id')->primary();
-            $table->foreignId('user_id')->constrained()->cascadeOnDelete();
             $table->string('type');
             $table->string('status');
             $table->unsignedBigInteger('created_time')->nullable();

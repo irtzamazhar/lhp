@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="g" x1="100%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#134E4A"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#g)"/>
+  <circle cx="240" cy="200" r="25" fill="rgba(255,255,255,0.3)"/>
+  <circle cx="400" cy="150" r="30" fill="rgba(255,255,255,0.35)"/>
+  <circle cx="560" cy="200" r="25" fill="rgba(255,255,255,0.3)"/>
+  <circle cx="320" cy="310" r="22" fill="rgba(255,255,255,0.25)"/>
+  <circle cx="480" cy="310" r="22" fill="rgba(255,255,255,0.25)"/>
+  <line x1="240" y1="200" x2="400" y2="150" stroke="rgba(255,255,255,0.3)" stroke-width="2"/>
+  <line x1="560" y1="200" x2="400" y2="150" stroke="rgba(255,255,255,0.3)" stroke-width="2"/>
+  <line x1="240" y1="200" x2="320" y2="310" stroke="rgba(255,255,255,0.25)" stroke-width="2"/>
+  <line x1="560" y1="200" x2="480" y2="310" stroke="rgba(255,255,255,0.25)" stroke-width="2"/>
+  <line x1="320" y1="310" x2="480" y2="310" stroke="rgba(255,255,255,0.2)" stroke-width="2"/>
+  <text x="400" y="410" font-size="24" text-anchor="middle" fill="rgba(255,255,255,0.7)" font-family="sans-serif" letter-spacing="6">CONNECT</text>
+</svg>

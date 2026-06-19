@@ -1,32 +1,23 @@
 <script setup lang="ts">
 import { Link } from '@inertiajs/vue3';
-import { BarChart3, BookOpen, FolderGit2, LayoutGrid, ListOrdered, Map } from '@lucide/vue';
+import { BarChart3, Map, Settings2, Users } from '@lucide/vue';
 import AppLogo from '@/components/AppLogo.vue';
-import NavFooter from '@/components/NavFooter.vue';
 import NavMain from '@/components/NavMain.vue';
-import NavUser from '@/components/NavUser.vue';
 import {
     Sidebar,
     SidebarContent,
-    SidebarFooter,
     SidebarHeader,
     SidebarMenu,
     SidebarMenuButton,
     SidebarMenuItem,
 } from '@/components/ui/sidebar';
-import { dashboard } from '@/routes';
 import type { NavItem } from '@/types';
 
 const mainNavItems: NavItem[] = [
     {
-        title: 'Dashboard',
-        href: dashboard(),
-        icon: LayoutGrid,
-    },
-    {
         title: 'Events',
         href: '/events',
-        icon: ListOrdered,
+        icon: Settings2,
     },
     {
         title: 'Events Visual 1',
@@ -38,18 +29,10 @@ const mainNavItems: NavItem[] = [
         href: '/events-visual-2',
         icon: Map,
     },
-];
-
-const footerNavItems: NavItem[] = [
     {
-        title: 'Repository',
-        href: 'https://github.com/laravel/vue-starter-kit',
-        icon: FolderGit2,
-    },
-    {
-        title: 'Documentation',
-        href: 'https://laravel.com/docs/starter-kits#vue',
-        icon: BookOpen,
+        title: 'Attendees',
+        href: '/attendees',
+        icon: Users,
     },
 ];
 </script>
@@ -60,7 +43,7 @@ const footerNavItems: NavItem[] = [
             <SidebarMenu>
                 <SidebarMenuItem>
                     <SidebarMenuButton size="lg" as-child>
-                        <Link :href="dashboard()">
+                        <Link href="/events">
                             <AppLogo />
                         </Link>
                     </SidebarMenuButton>
@@ -71,11 +54,6 @@ const footerNavItems: NavItem[] = [
         <SidebarContent>
             <NavMain :items="mainNavItems" />
         </SidebarContent>
-
-        <SidebarFooter>
-            <NavFooter :items="footerNavItems" />
-            <NavUser />
-        </SidebarFooter>
     </Sidebar>
     <slot />
 </template>

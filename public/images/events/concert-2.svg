@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4C1D95"/>
+      <stop offset="100%" stop-color="#BE185D"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#g)"/>
+  <text x="400" y="265" font-size="90" text-anchor="middle" fill="rgba(255,255,255,0.85)" font-family="serif">♫</text>
+  <text x="400" y="370" font-size="24" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-family="sans-serif" letter-spacing="8">LIVE MUSIC</text>
+  <circle cx="150" cy="100" r="80" fill="rgba(255,255,255,0.04)"/>
+  <circle cx="680" cy="400" r="100" fill="rgba(255,255,255,0.04)"/>
+  <circle cx="700" cy="80" r="50" fill="rgba(255,255,255,0.06)"/>
+</svg>

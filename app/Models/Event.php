@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Support\Str;
 
 class Event extends Model
@@ -25,8 +25,8 @@ class Event extends Model
         return (string) Str::uuid();
     }
 
-    public function user(): BelongsTo
+    public function attendees(): HasMany
     {
-        return $this->belongsTo(User::class);
+        return $this->hasMany(Attendee::class);
     }
 }

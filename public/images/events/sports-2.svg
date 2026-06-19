@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="g" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7F1D1D"/>
+      <stop offset="100%" stop-color="#EF4444"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#g)"/>
+  <ellipse cx="400" cy="230" rx="120" ry="120" fill="none" stroke="rgba(255,255,255,0.25)" stroke-width="3"/>
+  <line x1="280" y1="230" x2="520" y2="230" stroke="rgba(255,255,255,0.2)" stroke-width="2"/>
+  <line x1="400" y1="110" x2="400" y2="350" stroke="rgba(255,255,255,0.2)" stroke-width="2"/>
+  <ellipse cx="400" cy="230" rx="50" ry="120" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="2"/>
+  <circle cx="400" cy="230" r="20" fill="rgba(255,255,255,0.35)"/>
+  <text x="400" y="395" font-size="24" text-anchor="middle" fill="rgba(255,255,255,0.7)" font-family="sans-serif" letter-spacing="6">ATHLETICS</text>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="g" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#047857"/>
+      <stop offset="100%" stop-color="#34D399"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#g)"/>
+  <circle cx="280" cy="200" r="45" fill="rgba(255,255,255,0.2)"/>
+  <circle cx="400" cy="180" r="55" fill="rgba(255,255,255,0.25)"/>
+  <circle cx="520" cy="200" r="45" fill="rgba(255,255,255,0.2)"/>
+  <path d="M 235 260 L 565 260" stroke="rgba(255,255,255,0.25)" stroke-width="2" stroke-dasharray="8,4"/>
+  <text x="400" y="365" font-size="26" text-anchor="middle" fill="rgba(255,255,255,0.7)" font-family="sans-serif" letter-spacing="6">COMMUNITY</text>
+</svg>
